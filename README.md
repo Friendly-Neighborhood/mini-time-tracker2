@@ -50,7 +50,7 @@ npx prisma migrate dev
 
 cd apps/api
 
-npm run start:dev
+npm run dev
 
 ✅ Backend will be running at:
 http://localhost:3001
@@ -76,5 +76,6 @@ Click Save
 
 
 Your entries + total hours will appear at the bottom 🎯
+
 
 
