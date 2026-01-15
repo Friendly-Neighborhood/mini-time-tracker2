@@ -1,17 +1,19 @@
-🚀 MINI-TIME-TRACKER — How to Run (from ZIP)
+🚀 MINI-TIME-TRACKER — Getting Started (from ZIP)
 ✅ Requirements
+Make sure you have installed:
 
-Убедитесь что установлено:
 
 Node.js 18+
 
+
 npm
 
-1) Unzip project
 
-Распакуйте архив и откройте папку проекта:
 
+1) Unzip the project
+Unzip the archive and open the project folder:
 cd MINI-TIME-TRACKER
+
 
 2) Install dependencies
 Backend (API)
@@ -22,44 +24,42 @@ Frontend (Web)
 cd ../web
 npm install
 
-3) Setup database (Prisma + SQLite)
 
-БД работает на SQLite, файл базы лежит внутри проекта:
-
+3) Set up the database (Prisma + SQLite)
+The app uses SQLite. The database file is located here:
 apps/api/prisma/dev.db
-
-
-Применяем миграции и генерируем Prisma client:
-
+Apply migrations and generate the Prisma Client:
 cd apps/api
 npx prisma generate
 npx prisma migrate dev
 
-4) Run backend (API)
+
+4) Run the backend (API)
 cd apps/api
 npm run start:dev
 
-
-✅ Backend запустится по адресу:
+✅ Backend will be running at:
 http://localhost:3001
 
-5) Run frontend (Web)
-
-Открыть второй терминал и выполнить:
-
+5) Run the frontend (Web)
+Open a second terminal and run:
 cd apps/web
 npm run dev
 
-
-✅ Frontend будет доступен:
+✅ Frontend will be available at:
 http://localhost:3000
 
-✅ App usage
+✅ Using the app
 
-Открыть http://localhost:3000
 
-Заполнить Time Entry Form
+Open http://localhost:3000
 
-Нажать Save
 
-Внизу отобразится история записей + суммы часов
+Fill in the Time Entry Form
+
+
+Click Save
+
+
+Your entries + total hours will appear at the bottom 🎯
+
