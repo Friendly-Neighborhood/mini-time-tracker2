@@ -16,11 +16,14 @@ cd mini-time-tracker2-main
 
 
 2) Install dependencies
+
+
 Backend (API):
 
 cd apps/api
 
 npm install
+
 
 Frontend (Web):
 
@@ -30,16 +33,23 @@ npm install
 
 
 3) Set up the database (Prisma + SQLite)
+
 The app uses SQLite. The database file is located here:
 apps/api/prisma/dev.db
+
 Apply migrations and generate the Prisma Client:
+
 cd apps/api
+
 npx prisma generate
+
 npx prisma migrate dev
 
 
 4) Run the backend (API)
+
 cd apps/api
+
 npm run start:dev
 
 ✅ Backend will be running at:
@@ -66,4 +76,5 @@ Click Save
 
 
 Your entries + total hours will appear at the bottom 🎯
+
 
