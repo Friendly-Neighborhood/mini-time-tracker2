@@ -12,16 +12,20 @@ npm
 
 1) Unzip the project
 Unzip the archive and open the project folder:
-cd MINI-TIME-TRACKER
+cd mini-time-tracker2-main
 
 
 2) Install dependencies
-Backend (API)
+Backend (API):
+
 cd apps/api
+
 npm install
 
-Frontend (Web)
+Frontend (Web):
+
 cd ../web
+
 npm install
 
 
